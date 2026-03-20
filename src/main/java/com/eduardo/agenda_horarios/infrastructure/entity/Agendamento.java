@@ -33,4 +33,8 @@ public class Agendamento {
     private String cliente;
     private String telefoneCliente;
     private LocalDateTime dataHoraCriacao = LocalDateTime.now();
+
+    // Campo para status do agendamento
+    private String status; // valores possíveis: "PENDENTE", "CONCLUIDOS"
+
 }
